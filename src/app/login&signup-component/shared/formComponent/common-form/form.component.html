@@ -1,0 +1,29 @@
+<!-- common form for signup and login  -->
+<form #form="ngForm" (ngSubmit)="onSubmit(form)"novalidate >
+    <div class="title">
+        <ng-content select="#title-1"></ng-content>
+        <ng-content select="#title-2"></ng-content>
+    </div>
+    <div class="formBox">
+    <div>
+        <label class="labels" >Email</label> 
+        <input class="fields textInput" type="text" name="email_id" ngModel>
+    </div>
+    <div *ngIf="showName"> 
+        <label class="labels" >Name</label> 
+        <input class="fields textInput" type="text" name="name" ngModel>
+    </div>
+    <div>
+        <label class="labels">Password</label> 
+        <input class="fields" type="password" name="password" ngModel>
+    </div>
+   
+    <div>
+    <ng-content select="button"></ng-content>
+    </div>
+    <div class="footer">
+    <ng-content select="span"></ng-content>
+    <ng-content select="a"></ng-content>
+    </div>
+    </div>
+</form>

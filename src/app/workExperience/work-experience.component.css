@@ -1,0 +1,98 @@
+.header{
+    height: 80px;
+    padding: 15px 625.8px 15px 625px;
+    background-image: linear-gradient(273deg, #27aae2 100%, #1e3e73 19%);
+    text-align: center;
+    
+}
+.svgImg{
+    background-image: url('../../assets/img/group-30.svg');
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 50px;
+    display: block;
+    object-fit: contain;
+    margin: 2%;
+    margin-left: 26%;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin: 30px 150px 0;
+    padding: 30px 30px 247px;
+     background-color: #ffffff;
+}
+.head{
+    width: 50%;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+.name{
+    width: 50%;
+    text-align: right;
+    color: blue;
+    font-size: 22px;
+}
+table{
+    width:100%;
+    border: solid 1px #e6e6e6;
+}
+.tableHeader{
+    margin: 30px 0 109px;
+    padding: 12px 268px 12px 20px;
+    border: solid 1px #e6e6e6;
+    background-color: #fafafa;
+}
+tr{
+    border: solid 1px #e6e6e6;
+    background-color: #fafafa;
+}
+th{
+    width: 20%;
+    margin: 0 100px 0 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+    padding: 1%;
+}
+tbody{
+    margin: 69px 0 15px;
+    padding: 21px 20px 20px;
+    
+    background-color: #ffffff;
+}
+button{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    padding: 9px 23px 8px;
+    border: solid 1px #23c994;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #23c994;
+}
+button:hover{
+    color: #ffffff;
+    background-color: #23c994;
+}
+button:focus{
+    outline: none;
+}
+form{
+    width: 50%;
+}
+input{
+    width: 60%;
+    height: 28px;
+}
+.saveButton{
+    width: 200px;
+    margin-left: 0px;
+}

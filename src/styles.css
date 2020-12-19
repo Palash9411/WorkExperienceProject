@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0px;
+}
+.title{
+    margin: 0 41px 51px 13px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #343534;
+}
+.labels{
+    display: block;
+    margin: 50px 107px 17px 1px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8c949c;
+}
+.fields {
+    width: 250px;
+    margin: 8px 1px 20px;
+    border: none;
+    border-bottom: solid 1px #e6ecef;
+    font-size: 16px;
+}
+.fields:focus{
+    outline: none;
+}
+.textInput:focus{
+    color: blue;
+    outline: none;
+}
+.formBox{
+    margin-left :24%;
+}
+.footer{
+    margin: 122px 10px 0 1px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8c949c;
+}

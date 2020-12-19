@@ -1,0 +1,50 @@
+.parent{
+display: flex;
+
+}
+.formContainer{
+    width: 35%;
+    margin: 5%;
+    display: inline;
+}
+#title-1,#title-2{
+    display: block;
+}
+button{
+    margin: 20px 52px 54px 0;
+    padding: 9px 23px 8px;
+    border: solid 1px #23c994;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #23c994;
+}
+button:hover{
+    color: #ffffff;
+    background-color: #23c994;
+}
+button:focus{
+    outline: none;
+}
+a{
+    margin: 54px 63px 0 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #23c994;
+    cursor: pointer;
+}
+.image{
+    background: url(../../../assets/img/asset-2-3-x.jpg) ;
+    background-repeat: no-repeat;
+    display: inline;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    display: inline;
+    width: 45%;
+    margin: 7% 15%;
+}
+

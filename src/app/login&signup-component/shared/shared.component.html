@@ -1,0 +1,32 @@
+<div class="parent">
+    <!-- form -->
+   <div class="formContainer">
+        <app-form *ngIf="showLogin" (submitted)="loginUser($event)">
+                <strong id="title-1">SIGN UP &
+                    
+                </strong>
+                <strong id="title-2">
+                    GET STARTED
+                </strong>
+                <button  type="submit">
+                    SIGN IN
+                </button>
+                <span>Don’t have an account?</span>
+                <a (click)="redirectTo('SignUp')">SIGN UP</a>
+        </app-form>
+        <app-form *ngIf="!showLogin"(submitted)="createUser($event)">
+            <strong id="title-1">HAVE AN ACCOUNT?
+            </strong>
+            <strong id="title-2">JUST SIGN IN!</strong>
+            <input type="text">
+            <button type="submit">
+                SIGN UP
+            </button>
+            <span>Already have an account?</span>
+            <a (click)="redirectTo('Login')">SIGN IN</a>
+        </app-form>
+    </div>
+    <!-- sideImage -->
+    <div class = "image">
+    </div>
+</div> 
